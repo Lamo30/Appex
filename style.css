@@ -1,0 +1,913 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: rgb(70, 69, 69);
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom: 0.3px solid rgba(104, 100, 100, 0.5);
+    /* box-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.5); */
+}
+
+.go{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hill{
+    font-size: 47px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left:12rem;
+    color: blueviolet;
+}
+
+.went{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    font-size: 22px;
+    color: blueviolet;
+    padding: 1.5rem 12rem;
+    font-weight: 600;
+}
+
+.went button{
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 100;
+    background-color: rgb(255, 166, 0);
+    border-radius: 30px;
+    border: none;
+    font-weight: 50;
+}
+
+/* .things{
+    color: red;
+    border-bottom: 1px solid #000;
+}
+
+.alert {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    z-index: 999;
+    display: none;
+} */
+
+
+.went button:hover {
+    background-color: rgb(228, 145, 11);
+}
+
+.sectionone{
+    background-color: purple; 
+    background-image: linear-gradient(to right, rgb(138, 43, 226), rgba(162, 9, 162, 0.321) ,rgba(110, 4, 57, 0.832));
+    background-repeat: repeat-y, no-repeat;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.sectionone button{
+    background-color: rgb(255, 166, 0);
+    padding: 20px 28px;
+    border-radius: 40px;
+    border: 0;
+    font-size: 22.5px;
+    color: rgb(46, 45, 45);
+    margin-bottom: 80px;
+}
+
+.sectionone button:hover {
+    background-color: rgb(228, 145, 11);
+}
+
+.sectionone p:first-child {
+   margin-top: 15px;
+   margin-bottom: 0px;
+   font-weight: 600;
+   font-size: 40px;
+}
+
+.sectionone p:nth-child(2){
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.sectionone p:nth-child(3){
+    font-size: 20px;
+    margin-top: 0px;
+    font-weight: 600;
+}
+.sectionone p:nth-child(4){
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.sectiontwo{
+    line-height: 25px;
+}
+
+.drugs{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.zoro{
+    padding-bottom: 50px;
+}
+
+.bonjour{
+    padding-left: 100px;
+    margin-left: 100px;
+    width: 600px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.bonjour p:first-child{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.removal {
+    justify-items: right;
+}
+
+.chief{
+  padding-right: 100px;
+  margin-right: 100px;
+  width: 600px;
+  font-size: 20px;
+   line-height: 30px;
+}
+
+.chief p:first-child{
+    font-size: 35px;
+    font-weight: 580;
+    margin-bottom: 15px;
+}
+
+.sectionthree{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.boom {
+    padding-bottom: 40px;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+
+.focus {
+    display: flex;
+    padding: 50px 90px;
+    gap: 80px;
+}
+
+.casala, .burst, .giza{
+    width: 900px;
+    text-align: left;
+    line-height: 30px; 
+    font-size: 20px;
+}
+
+
+.casala p:first-child, .burst p:first-child, .giza p:first-child {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.sectionfour {
+    background-color: purple; 
+    background-image: linear-gradient(to bottom, rgb(138, 43, 226), rgba(162, 9, 162, 0.321) ,rgba(110, 4, 57, 0.832));
+    background-repeat: repeat-y, no-repeat;
+    color: white;
+    padding: 70px;
+}
+
+.seyi {
+    display: flex;
+    padding-left: 100px;
+    gap: 50px;
+}
+
+.vibes p:first-child{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.burna {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.amaze button {
+    background-color: rgb(255, 166, 0);
+    padding: 20px 28px;
+    border-radius: 40px;
+    border: none;
+    font-size: 22.5px;
+    color: rgb(46, 45, 45);    
+}
+
+.amaze button:hover {
+    background-color: rgb(228, 145, 11);
+}
+
+.sectionfive{
+    background-color: rgb(13, 13, 13);
+    color: rgb(119, 118, 118);
+    padding: 70px 180px;
+}
+
+.owambe {
+    display: flex;
+    gap: 150px;
+}
+
+.jaiye {
+    color: white;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.damn{
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.damn a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.damn a:hover{
+    color: rgb(228, 145, 11);
+}
+
+/* .damn p:nth-child(3):hover{
+    color: rgb(228, 145, 11);
+}
+
+.damn p:nth-child(4):hover{
+    color: rgb(228, 145, 11);
+}
+
+.damn p:nth-child(5):hover{
+    color: rgb(228, 145, 11);
+}
+
+.damn p:nth-child(6):hover{
+    color: rgb(228, 145, 11);
+}
+
+.damn p:nth-child(7):hover{
+    color: rgb(228, 145, 11);
+}
+
+.damn p:nth-child(8):hover{
+    color: rgb(228, 145, 11);
+}
+
+.damn p:nth-child(9):hover{
+    color: rgb(228, 145, 11);
+}
+
+.damn p:nth-child(10):hover{
+    color: rgb(228, 145, 11);
+}
+
+.damn p:nth-child(11):hover{
+    color: rgb(228, 145, 11);
+}
+
+.damn p:nth-child(12):hover{
+    color: rgb(228, 145, 11);
+}
+
+.damn p:nth-child(13):hover{
+    color: rgb(228, 145, 11);
+}
+
+.damn p:nth-child(14):hover{
+    color: rgb(228, 145, 11);
+}
+
+.damn p:nth-child(15):hover{
+    color: rgb(228, 145, 11);
+}
+
+.damn p:nth-child(16):hover{
+    color: rgb(228, 145, 11);
+} */
+
+.colos{
+    display: flex;
+    gap: 720px;
+}
+
+.gbese{
+    padding-bottom: 30px;
+    line-height: 25px;
+}
+
+.gbese a, .samba a, .simba a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.gbese, .samba, .simba {
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.gbese p:first-child{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.gbese a:hover{
+    color: rgb(228, 145, 11);
+}
+
+/* .gbese p:nth-child(3):hover{
+    color: rgb(228, 145, 11);
+}
+
+.gbese p:nth-child(4):hover{
+    color: rgb(228, 145, 11);
+} */
+
+/* .samba{
+    line-height: 25px;
+} */
+
+.samba p:first-child{
+    color: white;
+    font-weight: 600;
+}
+
+.samba a:hover{
+    color:  rgb(228, 145, 11);
+}
+
+/* .samba p:nth-child(3):hover{
+    color:  rgb(228, 145, 11);
+}
+
+.samba p:nth-child(4):hover{
+    color:  rgb(228, 145, 11);
+}
+
+.samba p:nth-child(5):hover{
+    color:  rgb(228, 145, 11);
+}
+ */
+.simba{
+    padding-top: 10px;
+}
+
+
+.simba p:first-child{
+    color: white;
+    font-weight: 600;
+}
+
+.simba a:hover{
+    color: rgb(228, 145, 11);
+}
+
+.sectionsix{
+    background-color: black;
+    color: rgb(128, 125, 125);
+    padding: 70px 180px;
+}
+
+.collabo {
+    display: flex;
+    gap: 0px;
+}
+
+.azula {
+    line-height: 30px;
+    padding-bottom: 0px;
+    font-size: 20px;
+}
+
+.azula p:first-child{
+    font-weight: 600;
+    font-size: 35px;
+    color: white;
+    padding-bottom: 25px;
+}
+
+.azula p:nth-child(2){
+    width: 45%;
+    padding-bottom: 15px;
+}
+
+.buruto{
+    line-height: 60px;
+    padding-top: 0px;
+}
+
+.buruto  input{
+    width: 45%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.rasingan button{
+    background-color: rgb(253, 194, 2);
+    color: rgb(42, 42, 42);
+    font-size: 17.5px;
+    font-weight: 600;
+    padding: 15px;
+    width: 390px;
+    border: none;
+    border-radius: 10px;
+}
+
+.rokpo{
+    display: flex;
+    gap: 25px;
+}
+
+.zima{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+hr{
+    color: rgba(0, 0, 0, 0.847);
+    height: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer{
+    background-color: black;
+}
+
+.core {
+    display: flex;
+    gap: 250px;
+    padding: 10px 180px;
+}
+
+.jamal{
+    display: flex;
+    gap: 100px;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .went {
+        display: none;
+    }
+
+    .hill {
+        text-align: left;
+        padding-left: 0em;
+        margin-left: 0.5rem;
+       font-size: 2rem;
+    }
+
+    .sectionone{
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+    .sectionone p:first-child, .sectionone p:nth-child(2){
+        font-size: 2rem;
+    }
+
+    .sectionone button {
+        margin-bottom: 0.5rem;
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .drugs{
+        font-size: 2rem;
+    }
+
+    .bonjour {
+        padding-left: 0.5rem;
+        margin-left: 0.5rem;
+        width: 20rem;
+        font-size: 16px;
+    }
+
+    .bonjour p:first-child {
+        font-size: 22px;
+    }
+
+    .removal{
+        display: flex;
+        /* justify-content: end; */
+    }
+
+    .chief{
+        /*align-items: left;
+        text-align: left;
+        padding-right: 0.5rem;
+        margin-right: 0.5rem; */
+        font-size: 16px;
+        padding-left: 0.5rem;
+        margin-left: 0.5rem;
+        width: 20rem;
+        font-size: 16px;
+    }
+
+    .chief p:first-child {
+        font-size: 22px;
+    }
+
+    .boom{
+        font-size: 2rem;
+    }
+
+    .focus{
+        padding: 0.5rem 0.9rem;
+        display: block;
+    }
+
+    .casala, .giza, .burst{
+        width: 20rem;
+        font-size: 16px;
+    }
+
+    .casala p:first-child, .giza p:first-child{
+        font-size: 22px;
+    }
+
+    .burst{
+        align-items: left;
+        text-align: left;
+        /* padding-left: 0.5rem;
+        margin-left: 0.5rem */
+    }
+
+    .casala p:first-child, .burst p:first-child, .giza p:first-child{
+        margin-bottom: 0.1rem;
+        margin-top: 0.5rem;
+    }
+
+    .sectionfour{
+        padding: 1.5rem;
+    }
+
+    .seyi{
+       padding-left: 0rem;
+    }
+
+    .vibes p:first-child {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .amaze button{
+        padding: 0.1rem 0.5rem;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .sectionfive{
+        padding: 0.5rem 0.5rem;
+    }
+
+    .owambe{
+        gap: 0.5rem;
+    }
+
+    .colos{
+        gap: 0.5rem;
+    }
+
+    .sectionsix{
+        padding: 1.5rem 0.5rem;
+    }
+
+    .azula p:first-child{
+        font-size: 1.5rem;
+    }
+
+    .rokpo{
+        gap: 0.5rem;
+        display: block;
+    }
+
+    .rasingan button{
+        width: 100%;
+        padding: 1rem 4.8rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    hr{
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .core{
+        padding: 0.5rem;
+        gap: 0.5rem;
+    }
+
+    .jamal{
+        gap: 0.5rem;
+    }
+
+    .simba{
+        display: none;
+    }
+
+    .damn{
+        padding-bottom: 2rem;
+    }
+
+    .owambe{
+        display: block;
+    }
+
+    .rokpo {
+        display: block;
+    }
+
+    .zima {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .azula {
+        font-size: 16px;
+        display: block;
+    }
+
+    .azula p:first-child{
+        font-size: 22px;
+    }
+
+    .azula p:nth-child(2){
+        width: 60%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 768px){
+    .went {
+        display: none;
+    }
+
+    .hill {
+        text-align: left;
+        padding-left: 0em;
+        margin-left: 0.5rem;
+       font-size: 2rem;
+    }
+
+    .sectionone{
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+    .sectionone p:first-child, .sectionone p:nth-child(2){
+        font-size: 2rem;
+    }
+
+    .sectionone button {
+        margin-bottom: 0.5rem;
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .drugs{
+        font-size: 2rem;
+    }
+
+    .bonjour {
+        padding-left: 0.5rem;
+        margin-left: 0.5rem;
+        width: 20rem;
+        font-size: 16px;
+    }
+
+    .bonjour p:first-child {
+        font-size: 22px;
+    }
+
+    .removal{
+        display: flex;
+        /* justify-content: end; */
+    }
+
+    .chief{
+        /*align-items: left;
+        text-align: left;
+        padding-right: 0.5rem;
+        margin-right: 0.5rem; */
+        font-size: 16px;
+        padding-left: 0.5rem;
+        margin-left: 0.5rem;
+        width: 20rem;
+        font-size: 16px;
+    }
+
+    .chief p:first-child {
+        font-size: 22px;
+    }
+
+    .boom{
+        font-size: 2rem;
+    }
+
+    .focus{
+        padding: 0.5rem 0.9rem;
+        display: block;
+    }
+
+    .casala, .giza, .burst{
+        width: 20rem;
+        font-size: 16px;
+    }
+
+    .casala p:first-child, .giza p:first-child{
+        font-size: 22px;
+    }
+
+    .burst{
+        align-items: left;
+        text-align: left;
+        /* padding-left: 0.5rem;
+        margin-left: 0.5rem */
+    }
+
+    .casala p:first-child, .burst p:first-child, .giza p:first-child{
+        margin-bottom: 0.1rem;
+        margin-top: 0.5rem;
+    }
+
+    .sectionfour{
+        padding: 1.5rem;
+    }
+
+    .seyi{
+       padding-left: 0rem;
+    }
+
+    .vibes p:first-child {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .amaze button{
+        padding: 0.1rem 0.5rem;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .sectionfive{
+        padding: 0.5rem 0.5rem;
+    }
+
+    .owambe{
+        gap: 0.5rem;
+    }
+
+    .colos{
+        gap: 0.5rem;
+    }
+
+    .sectionsix{
+        padding: 1.5rem 0.5rem;
+    }
+
+    .azula p:first-child{
+        font-size: 1.5rem;
+    }
+
+    .rokpo{
+        gap: 0.5rem;
+        display: block;
+    }
+
+    .rasingan button{
+        width: 100%;
+        padding: 1rem 4.8rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    hr{
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .core{
+        padding: 0.5rem;
+        gap: 0.5rem;
+    }
+
+    .jamal{
+        gap: 0.5rem;
+    }
+
+    .simba{
+        display: none;
+    }
+
+    .damn{
+        padding-bottom: 2rem;
+    }
+
+    .owambe{
+        display: block;
+    }
+
+    .rokpo {
+        display: block;
+    }
+
+    .zima {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .azula {
+        font-size: 16px;
+        display: block;
+    }
+
+    .azula p:first-child{
+        font-size: 22px;
+    }
+
+    .azula p:nth-child(2){
+        width: 60%;
+    }
+}
+
+/* @media only screen and (min-device-width: 768px){
+    .went {
+        display: none;
+    }
+    .simba{
+        padding: 0rem;
+    }
+    .colos{
+        gap: 15rem;
+    }
+}
+  
+    .simba{
+        padding: 0rem;
+    }
+    .colos{
+        gap: 15rem;
+    }
+}
+   */
