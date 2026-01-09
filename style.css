@@ -699,7 +699,7 @@ footer{
 
 
 
-@media only screen and (min-device-width: 768px){
+@media only screen and (max-width: 768px){
     .went {
         display: none;
     }
